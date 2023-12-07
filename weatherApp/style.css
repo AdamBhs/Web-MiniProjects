@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #1ed1c2, #8b83cc);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+/* Start Search Part */
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input, button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+}
+.search input {
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+/* End Search Part */
+/* Start weather Part */
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.details .col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.details .col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 20px;
+    margin-top: -6px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #262929;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0,212,255);
+    background: linear-gradient(140deg, rgb(0, 255, 238) 0%, rgb(30, 28, 77) 100%);
+    padding: 30px; 
+    border-radius: 15px;
+    width: 240px
+}
+
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search .search-logo {
+    position: relative;
+    background-color: white;
+    width: 22px;
+    height: 22px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-logo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 13px;
+    height: auto;
+}
+
+.search input {
+    width: 170px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding-left: 0.8rem;
+}
+
+.state {
+    position: relative;
+}
+.state img {
+    width: 150px;
+    height: auto;
+}*/
