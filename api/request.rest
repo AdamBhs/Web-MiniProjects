@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "workout"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/65a65996ce4418fccea29359
+
+###
+
+PUT http://localhost:3001/todo/complete/65a658d0df5108208c9648cd
